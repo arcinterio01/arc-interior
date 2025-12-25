@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ARC INTERIOR | Interior Design Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fafafa;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: #ffffff;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 1px solid #e5e5e5;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 42px;
+      letter-spacing: 3px;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 18px;
+      color: #777;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      padding: 15px;
+      background: #f5f5f5;
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #222;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #b89b5e;
+    }
+    section {
+      padding: 60px 10%;
+    }
+    section h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      border-left: 5px solid #b89b5e;
+      padding-left: 15px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #b89b5e;
+    }
+    footer {
+      background: #ffffff;
+      padding: 30px;
+      text-align: center;
+      border-top: 1px solid #e5e5e5;
+    }
+    footer p {
+      margin: 5px 0;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ARC INTERIOR</h1>
+  <p>Luxury Interior Design | Residential • Commercial • 3D Visualization</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#residential">Residential</a>
+  <a href="#commercial">Commercial</a>
+  <a href="#views">3D Views</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    ARC INTERIOR is an independent interior design consultancy with over 8 years of professional experience in
+    residential and commercial interior design projects. We provide complete end-to-end solutions with a focus
+    on luxury, functionality, and timeless aesthetics.
+  </p>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="grid">
+    <div class="card"><h3>Residential Design</h3><p>Luxury homes, apartments, villas and customized living spaces.</p></div>
+    <div class="card"><h3>Commercial Design</h3><p>Offices, cafes, salons, retail spaces and institutional projects.</p></div>
+    <div class="card"><h3>Turnkey Projects</h3><p>Complete design & execution with single-point responsibility.</p></div>
+    <div class="card"><h3>3D Visualization</h3><p>High-quality 3D views & walkthrough videos using 3Ds Max & V-Ray.</p></div>
+  </div>
+</section>
+
+<section id="residential">
+  <h2>Residential Projects</h2>
+  <div class="grid">
+    <div class="card"><h3>Luxury Apartments</h3><p>2 BHK, 3 BHK & 4 BHK residential projects.</p></div>
+    <div class="card"><h3>Villas & Bungalows</h3><p>Interior & exterior luxury design solutions.</p></div>
+    <div class="card"><h3>Compact Homes</h3><p>Smart design solutions for small spaces.</p></div>
+  </div>
+</section>
+
+<section id="commercial">
+  <h2>Commercial Projects</h2>
+  <div class="grid">
+    <div class="card"><h3>Corporate Offices</h3><p>Reception areas, cabins, board rooms & workstations.</p></div>
+    <div class="card"><h3>Cafes & Restaurants</h3><p>Modern and theme-based commercial interiors.</p></div>
+    <div class="card"><h3>Salons & Retail</h3><p>Luxury salon & showroom designs.</p></div>
+  </div>
+</section>
+
+<section id="views">
+  <h2>3D Views</h2>
+  <div class="grid">
+    <div class="card"><h3>3D Interior Views</h3><p>Photorealistic interior visualization.</p></div>
+    <div class="card"><h3>3D Exterior Views</h3><p>Building & bungalow exterior designs.</p></div>
+    <div class="card"><h3>Walkthrough Videos</h3><p>Complete 3D walkthrough experience.</p></div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: <strong>arcinterio.01@gmail.com</strong></p>
+  <p>Serving Residential & Commercial Projects Across India</p>
+</section>
+
+<footer>
+  <p>© 2025 ARC INTERIOR</p>
+  <p>Luxury Interior Design Studio</p>
+</footer>
+
+</body>
+</html>
